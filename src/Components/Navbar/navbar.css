@@ -1,0 +1,73 @@
+:root {
+  --signup-button-color: #f53855;
+  --font-weight-medium: 500;
+  --font-weight-big: 700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar__Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2em;
+  width: 80%;
+}
+.navbar__Left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+}
+.navbar__Left h1 {
+  font-weight: var(--font-weight-medium);
+  user-select: none;
+}
+.navbar__Left span {
+  font-weight: 700;
+}
+
+.navbar__Center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.navbar__Center a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4f5665;
+  cursor: pointer;
+}
+
+.navbar__Right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.navbar__Right .signin {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+}
+.navbar__Right .signup {
+  border: 1px solid var(--signup-button-color);
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: var(--font-weight-medium);
+  padding: 0.7em 2em;
+  color: var(--signup-button-color);
+  border-radius: 99px;
+  cursor: pointer;
+}
