@@ -1,0 +1,59 @@
+:root {
+  --header-font-size: 1.5rem;
+  --paragraph-font-size: 1rem;
+  --button-color: #f53838;
+  --paragraph-color: #4f5665;
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --header-line-height: 70px;
+  --paragraph-line-height: 30px;
+}
+
+.homecenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.homecenter__Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 1em;
+}
+.homecenter__Container .header {
+  width: 100%;
+  line-height: var(--header-line-height);
+  font-size: var(--header-font-size);
+}
+
+.homecenter__Container .header h1 {
+  font-weight: var(--font-weight-medium);
+}
+.homecenter__Container .header span {
+  font-weight: var(--font-weight-bold);
+}
+.homecenter__Container .paragraph {
+  line-height: var(--paragraph-line-height);
+  font-size: var(--paragraph-font-size);
+  color: var(--paragraph-color);
+}
+.homecenter__Container .getstarted__Button {
+  padding: 1.5em 6.5em;
+  background-color: var(--button-color);
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0px 20px 60px -15px var(--button-color);
+}
+.homecenter__Container .homecenter__Illustration {
+  padding: 1em;
+}
+.homecenter__Container .homecenter__Illustration img {
+  width: 35rem;
+  height: 24rem;
+}
