@@ -1,4 +1,8 @@
+html {
+  font-size: 100%;
+}
 body {
+  font-size: 62.5%;
   margin: 0;
   font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
