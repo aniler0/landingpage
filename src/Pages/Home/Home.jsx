@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "Components/Navbar/Navbar";
 import HomeCenter from "Components/HomeCenter/HomeCenter";
+import Statistics from "Components/Statistics/Statistics";
 import "./home.css";
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
     <div className="home">
       <Navbar />
       <HomeCenter />
-      {/*Statistics*/}
+      <Statistics />
     </div>
   );
 };
