@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.about__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.about__Right {
+  width: 45%;
+}
+.about__Right .right__Text h1 {
+  font-size: 2.2rem;
+  width: 80%;
+}
+.about__Right .right__Text p {
+  font-size: 1rem;
+}
+.right__Features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.right__Features .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__Right .right__Features p {
+  font-size: 0.9rem;
+  padding-left: 0.8em;
+}
