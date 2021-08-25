@@ -1,0 +1,13 @@
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+}
+.banner__Logo h1 {
+  font-weight: 500;
+  user-select: none;
+}
+.banner__Logo span {
+  font-weight: 700;
+}

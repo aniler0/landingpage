@@ -21,19 +21,6 @@
   padding: 2em;
   width: 80%;
 }
-.navbar__Left {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 15%;
-}
-.navbar__Left h1 {
-  font-weight: var(--font-weight-medium);
-  user-select: none;
-}
-.navbar__Left span {
-  font-weight: 700;
-}
 
 .navbar__Center {
   display: flex;

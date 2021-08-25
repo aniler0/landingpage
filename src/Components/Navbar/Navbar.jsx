@@ -1,19 +1,14 @@
+import Banner from "Components/Banner/Banner";
 import React from "react";
-import logo from "assets/images/logo.svg";
+
 import "./navbar.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__Container">
-        <div className="navbar__Left">
-          <div className="banner__Logo">
-            <img src={logo} alt="logo" />
-          </div>
-          <h1>
-            Lasles<span>VPN</span>
-          </h1>
-        </div>
+        <Banner />
+
         <div className="navbar__Center">
           <a>About</a>
           <a>Features</a>
