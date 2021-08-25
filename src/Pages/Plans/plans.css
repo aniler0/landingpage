@@ -1,0 +1,43 @@
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(230, 230, 230);
+  background: linear-gradient(
+    180deg,
+    rgb(252, 252, 252) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 100%;
+}
+.plans__Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.plans__Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.plans__Text h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.plans__Text p {
+  text-align: center;
+  font-size: 1rem;
+  color: #4f5665;
+  width: 90%;
+  line-height: 1.7rem;
+}
+.plan__Area {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 2em;
+}

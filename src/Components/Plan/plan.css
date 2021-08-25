@@ -1,0 +1,76 @@
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 47.5rem;
+  border: 2px solid #dddddd;
+  border-radius: 9px;
+}
+.plan__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 95%;
+  width: 80%;
+}
+.plan__Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 50%;
+}
+.plan__Top h1 {
+  color: #0b132a;
+  font-weight: 500;
+  padding: 2.5em;
+}
+.plan__Features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.plan__Feature {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.plan__Feature p {
+  font-size: 0.9rem;
+  color: #4f5665;
+  text-align: left;
+  width: 85%;
+}
+.plan__Bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+.plan__Bottom h1 {
+  color: #0b132a;
+}
+.plan__Bottom span {
+  font-weight: 400;
+  color: #4f5665;
+}
+.plan__Bottom .select {
+  background-color: transparent;
+  border: 2px solid #f53838;
+  padding: 0.7em 4em;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 99px;
+  color: #f53838;
+  cursor: pointer;
+}
