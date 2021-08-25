@@ -6,18 +6,41 @@
 }
 .statistic__Container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 1em;
+}
+.statistic__Container .item {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
-  padding: 1em;
+  width: 100%;
+  padding: 0 8em;
 }
 .statistic__Container .icon {
   width: 3rem;
   height: 3rem;
 }
+.statistic__Container .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding: 2em;
+}
 .statistic__Container .details h1 {
   font-size: 1.5rem;
+  margin: 0;
 }
+
+.with-border {
+  border-left: 2px solid rgb(232, 232, 232);
+  border-right: 2px solid rgb(232, 232, 232);
+}
+
 .statistic__Container .details p {
   font-size: 1.2rem;
+  margin: 0;
 }

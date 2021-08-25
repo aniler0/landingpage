@@ -9,7 +9,7 @@ const Statistic = ({ user, server }) => {
     <div className="statistic">
       <div className="statistic__Container">
         {user ? (
-          <>
+          <div className="item">
             <div className="icon">
               <img src={usericon} alt="user" />
             </div>
@@ -17,9 +17,9 @@ const Statistic = ({ user, server }) => {
               <h1>90+</h1>
               <p>Users</p>
             </div>
-          </>
+          </div>
         ) : server ? (
-          <>
+          <div className="item">
             <div className="icon">
               <img src={servericon} alt="server" />
             </div>
@@ -27,17 +27,17 @@ const Statistic = ({ user, server }) => {
               <h1>50+</h1>
               <p>Servers</p>
             </div>
-          </>
+          </div>
         ) : (
-          <>
+          <div className="item with-border">
             <div className="icon">
               <img src={locationicon} alt="location" />
             </div>
-            <div className="details">
+            <div className="details" style={{}}>
               <h1>30+</h1>
               <p>Locations</p>
             </div>
-          </>
+          </div>
         )}
       </div>
     </div>
