@@ -1,6 +1,7 @@
-import Home from "./Pages/Home/Home";
+import Home from "Pages/Home/Home";
 import About from "Pages/About/About";
 import Plans from "Pages/Plans/Plans";
+import Locations from "Pages/Locations/Locations";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Home />
       <About />
       <Plans />
-      {/*Locations */}
+      <Locations />
       {/*Customers */}
       {/*Footer */}
     </div>

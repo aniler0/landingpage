@@ -17,14 +17,12 @@ const Plan = ({ plan }) => {
           <h1>{plan.plan}</h1>
 
           <div className="plan__Features">
-            {plan.features.map((feature, key) => {
+            {plan.features.map((feature, index) => {
               return (
-                <>
-                  <div key={key} className="plan__Feature">
-                    <img src={check} alt="check" />
-                    <p>{feature}</p>
-                  </div>
-                </>
+                <div key={index} className="plan__Feature">
+                  <img src={check} alt="check" />
+                  <p>{feature}</p>
+                </div>
               );
             })}
           </div>
