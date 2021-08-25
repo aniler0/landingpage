@@ -10,11 +10,11 @@ const Navbar = () => {
         <Banner />
 
         <div className="navbar__Center">
-          <a>About</a>
-          <a>Features</a>
-          <a>Pricing</a>
-          <a>Testimonials</a>
-          <a>Help</a>
+          <h1>About</h1>
+          <h1>Features</h1>
+          <h1>Pricing</h1>
+          <h1>Testimonials</h1>
+          <h1>Help</h1>
         </div>
         <div className="navbar__Right">
           <button className="signin">Sign In</button>

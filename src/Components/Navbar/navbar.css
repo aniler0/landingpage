@@ -28,7 +28,7 @@
   align-items: center;
   width: 35%;
 }
-.navbar__Center a {
+.navbar__Center h1 {
   font-size: 1rem;
   font-weight: 400;
   color: #4f5665;
