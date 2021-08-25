@@ -26,6 +26,9 @@
   line-height: 2.8rem;
   font-weight: 500;
 }
+.locations__Text span {
+  font-weight: 500;
+}
 .locations__Text p {
   font-size: 1rem;
   width: 90%;
