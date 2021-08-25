@@ -39,4 +39,45 @@ export const plansData = [
         cost: '$12'
     }
 
+];
+
+export const socialMedia = [
+    'facebook',
+    'twitter',
+    'instagram'
+
+]
+
+export const footerLinks = [
+    {
+        name: 'Product',
+        links: [
+
+            'Download',
+            'Pricing',
+            'Locations',
+            'Server',
+            'Countries',
+            'Blog'
+        ]
+    },
+    {
+        name: 'Engage',
+        links: [
+
+            'LaslesVPN ? ',
+            'FAQ',
+            'Tutorials',
+            'About Us',
+            'Privacy Policy',
+            'Terms of Service'
+        ]
+    },
+    {
+        name: 'Earn Money',
+        links: [
+            'Affiliate',
+            'Become Partner'
+        ]
+    }
 ]
