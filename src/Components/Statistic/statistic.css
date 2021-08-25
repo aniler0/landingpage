@@ -1,0 +1,23 @@
+.statistic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.statistic__Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  padding: 1em;
+}
+.statistic__Container .icon {
+  width: 3rem;
+  height: 3rem;
+}
+.statistic__Container .details h1 {
+  font-size: 1.5rem;
+}
+.statistic__Container .details p {
+  font-size: 1.2rem;
+}
