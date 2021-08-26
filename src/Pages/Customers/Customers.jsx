@@ -11,7 +11,9 @@ const Customers = () => {
             pleasure when using this crazy feature.
           </p>
         </div>
-        <Slider />
+        <div className="sliding__Area">
+          <Slider />
+        </div>
       </div>
     </div>
   );

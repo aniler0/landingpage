@@ -1,0 +1,73 @@
+.slider {
+  position: relative;
+}
+
+.slick-slider {
+  width: 100%;
+  padding: 3em;
+  background-color: transparent;
+}
+.slick-list {
+  margin: 0 -7px !important;
+}
+
+.slick-slide > div {
+  padding: 0 7px !important;
+}
+
+.sliding__Page {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.sliding__Element {
+  border: 2px solid gainsboro;
+  border-radius: 9px;
+  padding: 2em;
+}
+.select__Buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  border: 1px solid black;
+  padding: 2em;
+  position: absolute;
+  bottom: -80px;
+  right: 50px;
+}
+.select__Buttons .button {
+  padding: 1em;
+  border: 2px solid #f53838;
+  background-color: transparent;
+  border-radius: 99px;
+  color: #f53838;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sliding__Element .user__Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10%;
+}
+.user__Contact h1 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.user__Contact p {
+  font-size: 0.9rem;
+  margin-top: 0;
+  color: #4f5665;
+}
+.user__Comment {
+  width: 100%;
+}
+.user__Comment p {
+  font-size: 1rem;
+  color: #0b132a;
+}
