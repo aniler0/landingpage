@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "Components/Banner/Banner";
 import { socialMedia, footerLinks } from "utils/project-datas";
 import "./footer.css";
+import Subscribe from "Components/Subscribe/Subscribe";
 
 const Footer = () => {
   return (
@@ -48,6 +49,7 @@ const Footer = () => {
           })}
         </div>
       </div>
+      <Subscribe />
     </div>
   );
 };
