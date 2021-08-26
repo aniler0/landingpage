@@ -3,6 +3,7 @@ import About from "Pages/About/About";
 import Plans from "Pages/Plans/Plans";
 import Locations from "Pages/Locations/Locations";
 import Footer from "Pages/Footer/Footer";
+import Customers from "Pages/Customers/Customers";
 import "./App.css";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <About />
       <Plans />
       <Locations />
-      {/*Customers */}
+      <Customers />
       <Footer />
     </div>
   );

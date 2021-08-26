@@ -1,0 +1,39 @@
+.customers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.customers__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 90%;
+}
+.text__Area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+}
+.text__Area h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 3rem;
+  width: 70%;
+}
+.text__Area p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  color: #4f5665;
+  line-height: 2rem;
+  width: 70%;
+}
