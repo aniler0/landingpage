@@ -15,8 +15,8 @@ const Plans = () => {
           </p>
         </div>
         <div className="plan__Area">
-          {plansData.map((plan, index) => {
-            return <Plan plan={plan} key={index} />;
+          {plansData.map((plan) => {
+            return <Plan plan={plan} key={plan.id} />;
           })}
         </div>
       </div>

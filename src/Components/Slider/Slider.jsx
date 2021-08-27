@@ -24,17 +24,15 @@ const TestimonalsSlider = () => {
     <Slider {...settings}>
       {userDatas.map((data, key) => {
         return (
-          <>
-            <div key={key} className="sliding__Element">
-              <div className="user__Contact">
-                <h1>{data.name}</h1>
-                <p>{data.email}</p>
-              </div>
-              <div className="user__Comment">
-                <p>"{data.body}."</p>
-              </div>
+          <div key={key} className="sliding__Element">
+            <div className="user__Contact">
+              <h1>{data.name}</h1>
+              <p>{data.email}</p>
             </div>
-          </>
+            <div className="user__Comment">
+              <p>"{data.body}."</p>
+            </div>
+          </div>
         );
       })}
     </Slider>

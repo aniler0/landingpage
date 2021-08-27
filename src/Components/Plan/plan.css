@@ -74,3 +74,9 @@
   color: #f53838;
   cursor: pointer;
 }
+.select:focus {
+  background-color: #f53838;
+  box-shadow: 0px 20px 60px -15px #f53838;
+  color: white;
+  font-weight: 400;
+}

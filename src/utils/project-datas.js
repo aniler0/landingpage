@@ -1,5 +1,6 @@
 export const plansData = [
     {
+        id: '1',
         plan: 'Free Plan',
         image: 'free',
         alt: 'free',
@@ -12,6 +13,7 @@ export const plansData = [
 
     },
     {
+        id: '2',
         plan: 'Standard Plan',
         image: 'standart',
         alt: 'standart',
@@ -25,6 +27,7 @@ export const plansData = [
         cost: '$9'
     },
     {
+        id: '3',
         plan: 'Premium Plan',
         image: 'premium',
         alt: 'premium',
