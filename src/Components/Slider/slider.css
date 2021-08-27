@@ -8,11 +8,11 @@
   background-color: transparent;
 }
 .slick-list {
-  margin: 0 -10px !important;
+  margin: 0 -20px !important;
 }
 
 .slick-slide > div {
-  padding: 0 25px !important;
+  padding: 0 30px !important;
 }
 
 .sliding__Page {
@@ -26,6 +26,7 @@
   border: 2px solid gainsboro;
   border-radius: 9px;
   padding: 2em;
+  min-height: 30%;
 }
 .select__Buttons {
   display: flex;
