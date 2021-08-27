@@ -8,11 +8,11 @@
   background-color: transparent;
 }
 .slick-list {
-  margin: 0 -7px !important;
+  margin: 0 -10px !important;
 }
 
 .slick-slide > div {
-  padding: 0 7px !important;
+  padding: 0 25px !important;
 }
 
 .sliding__Page {
